@@ -1,7 +1,7 @@
 import serial
 import time
 
-PUERTO = '/dev/ttyACM0'   # cámbialo si tu Arduino salió como ttyUSB0
+PUERTO = '/dev/ttyUSB0'   # cámbialo si tu Arduino salió como ttyUSB0
 BAUDIOS = 9600
 
 ser = serial.Serial(PUERTO, BAUDIOS, timeout=1)
